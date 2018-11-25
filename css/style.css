@@ -5,3 +5,10 @@ p.profile {
   padding: 3px;
   text-align: justify;
 }
+#knowledge{
+  list-style-type:square;
+}
+.development{
+  font-family: "Courier", Times, serif;
+  font-size:16px;
+}
