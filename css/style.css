@@ -1,9 +1,15 @@
+$paragraph-color: #01173a;
+
 body {
   padding-top: 5rem;
+}
+p {
+  color: $paragraph-color;
 }
 p.profile {
   padding: 3px;
   text-align: justify;
+  color: $paragraph-color;
 }
 #knowledge{
   list-style-type:square;
@@ -11,4 +17,10 @@ p.profile {
 .development{
   font-family: "Courier", Times, serif;
   font-size:16px;
+}
+
+@media screen and  (max-width: 600px) {
+    table#tblHobby {
+        font-size: 10px;
+    }
 }
