@@ -1,0 +1,37 @@
+$paragraph-color: #01173a;
+
+%list-style {
+    list-style-type:square;
+    text-align: justify;
+    font-size: 16px;
+}
+
+body {
+  padding-top: 5rem;
+}
+
+div{
+    p {
+        color: $paragraph-color;
+    }
+    p.profile {
+        padding: 3px;
+        text-align: justify;
+        color: $paragraph-color;
+    }
+}
+
+#knowledge{
+ @extend %list-style;
+}
+
+.development{
+    @extend %list-style;
+    font-family: "Courier", Times, serif;
+}
+
+@media screen and  (max-width: 600px) {
+    table#tblHobby {
+        font-size: 10px;
+    }
+}

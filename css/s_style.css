@@ -1,0 +1,23 @@
+#knowledge, .development {
+  list-style-type: square;
+  text-align: justify;
+  font-size: 16px; }
+
+body {
+  padding-top: 5rem; }
+
+div p {
+  color: #01173a; }
+div p.profile {
+  padding: 3px;
+  text-align: justify;
+  color: #01173a; }
+
+.development {
+  font-family: "Courier", Times, serif; }
+
+@media screen and (max-width: 600px) {
+  table#tblHobby {
+    font-size: 10px; } }
+
+/*# sourceMappingURL=s_style.css.map */
